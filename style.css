@@ -1,0 +1,107 @@
+.python-image {
+	width: 50px;
+}
+.boostrap-image {
+	width: 50px;
+}
+.git-image {
+	width: 80px;
+}
+.react-image {
+	width: 50px;
+}
+.laravel-image {
+	width: 40px;
+}
+.flask-image {
+	width: 150px;
+}
+.go-image {
+	width: 60px;
+}
+.npm-image {
+	width: 43px;
+}
+.solidity-image {
+	width: 60px;
+}
+.openzeppelin-image {
+	width: 200px;
+}
+.typewriter {
+	white-space: nowrap;       
+	width: 18ch;
+	animation: writing 2s steps(20);          
+	overflow: hidden;
+}
+.cursor{
+	animation: 1s cursor-flickering infinite;
+}
+@keyframes writing {
+	from {
+		width: 0;
+	}
+}
+@keyframes cursor-flickering {
+	50% {
+		opacity: 0;
+	}
+}
+.carousel-component {
+	height: 100px;
+}
+
+.floating-img {
+  animation: floating 5s ease-in-out infinite;
+}
+
+@keyframes floating {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.grayscale {
+	filter: grayscale(100%);
+}
+
+.logos-start {
+	width: 65px;
+}
+
+      /* Reset de estilos y estilos básicos */
+      body, ul, li {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+	}
+
+ /* Estilos para el encabezado */
+ header {
+	background-color: #F0F0F0;
+	color: #333;
+	padding: 10px 0;
+}
+.navbar-brand {
+	font-size: 24px;
+	text-decoration: none;
+	color: #333;
+}
+.navbar-list {
+	display: flex;
+}
+.navbar-list li {
+	margin-right: 20px;
+}
+.navbar-list a {
+	text-decoration: none;
+	color: #333;
+	font-size: 16px;
+	transition: color 0.3s ease;
+}
